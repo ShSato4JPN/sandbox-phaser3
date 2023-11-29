@@ -1,11 +1,11 @@
 {
 	"textures": [
 		{
-			"image": "package-lock.png",
+			"image": "cityscene.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 2018,
-				"h": 402
+				"w": 943,
+				"h": 959
 			},
 			"scale": 1,
 			"frames": [
@@ -15,82 +15,23 @@
 					"trimmed": false,
 					"sourceSize": {
 						"w": 800,
-						"h": 400
+						"h": 600
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
 						"w": 800,
-						"h": 400
+						"h": 600
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
 						"w": 800,
-						"h": 400
-					}
-				},
-				{
-					"filename": "capguy/walk/0008.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 187,
-						"h": 324
+						"h": 600
 					},
-					"spriteSourceSize": {
-						"x": 22,
-						"y": 1,
-						"w": 161,
-						"h": 319
-					},
-					"frame": {
-						"x": 803,
-						"y": 1,
-						"w": 161,
-						"h": 319
-					}
-				},
-				{
-					"filename": "capguy/walk/0001.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 187,
-						"h": 324
-					},
-					"spriteSourceSize": {
-						"x": 15,
-						"y": 3,
-						"w": 158,
-						"h": 316
-					},
-					"frame": {
-						"x": 966,
-						"y": 1,
-						"w": 158,
-						"h": 316
-					}
-				},
-				{
-					"filename": "capguy/walk/0007.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 187,
-						"h": 324
-					},
-					"spriteSourceSize": {
-						"x": 32,
-						"y": 2,
-						"w": 146,
-						"h": 314
-					},
-					"frame": {
-						"x": 1126,
-						"y": 1,
-						"w": 146,
-						"h": 314
+					"anchor": {
+						"x": 0,
+						"y": 0
 					}
 				},
 				{
@@ -108,10 +49,14 @@
 						"h": 311
 					},
 					"frame": {
-						"x": 1274,
+						"x": 803,
 						"y": 1,
 						"w": 139,
 						"h": 311
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
 					}
 				},
 				{
@@ -129,10 +74,89 @@
 						"h": 311
 					},
 					"frame": {
-						"x": 1415,
-						"y": 1,
+						"x": 803,
+						"y": 314,
 						"w": 135,
 						"h": 311
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "capguy/walk/0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 187,
+						"h": 324
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 161,
+						"h": 319
+					},
+					"frame": {
+						"x": 1,
+						"y": 627,
+						"w": 161,
+						"h": 319
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "capguy/walk/0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 187,
+						"h": 324
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 3,
+						"w": 158,
+						"h": 316
+					},
+					"frame": {
+						"x": 164,
+						"y": 627,
+						"w": 158,
+						"h": 316
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "capguy/walk/0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 187,
+						"h": 324
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 2,
+						"w": 146,
+						"h": 314
+					},
+					"frame": {
+						"x": 324,
+						"y": 627,
+						"w": 146,
+						"h": 314
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
 					}
 				},
 				{
@@ -150,10 +174,14 @@
 						"h": 307
 					},
 					"frame": {
-						"x": 1552,
-						"y": 1,
+						"x": 472,
+						"y": 627,
 						"w": 152,
 						"h": 307
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
 					}
 				},
 				{
@@ -171,10 +199,45 @@
 						"h": 303
 					},
 					"frame": {
-						"x": 1706,
-						"y": 1,
+						"x": 626,
+						"y": 603,
 						"w": 168,
 						"h": 303
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 50
+					},
+					"frame": {
+						"x": 626,
+						"y": 908,
+						"w": 100,
+						"h": 50
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"scale9Borders": {
+						"x": 16,
+						"y": 14,
+						"w": 69,
+						"h": 22
 					}
 				},
 				{
@@ -192,10 +255,14 @@
 						"h": 306
 					},
 					"frame": {
-						"x": 1876,
-						"y": 1,
+						"x": 796,
+						"y": 627,
 						"w": 141,
 						"h": 306
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
 					}
 				}
 			]
@@ -204,6 +271,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:fc3542220908b6310c5f296c9f2dc6dc:fed0f696c0a1349f4c5839d5f65ab643:7c5e826eb89aebec223a8c8ecbe95243$"
+		"smartupdate": "$TexturePacker:SmartUpdate:cfb23f31dec16b45688022e67f1c62e3:a7b557a8b17d317efb009c64cc7cd6e2:292542e6853f316339413b9243f95b10$"
 	}
 }
